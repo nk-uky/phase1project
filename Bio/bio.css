@@ -1,0 +1,71 @@
+/* Basic Reset */ 
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+body { 
+  font-family: 'Arial', sans-serif; 
+  line-height: 1.6; 
+  padding: 20px; 
+  background-color: lightgrey;
+  @media (max-width: 600px) {
+    background-color: white;
+  }
+} 
+
+header { 
+  text-align: center; 
+  margin-bottom: 20px;
+  color: blue;
+} 
+
+/* The profile image resizes for smaller screens */
+.profile-img { 
+  width: 250px; 
+  height: auto;
+  border-radius: 10%;
+  border: 5px solid #555;
+  @media (max-width: 600px) {
+    width: 150px;
+  }
+}
+
+p {
+  color: black;
+}
+
+.button {
+  background-color: lightgreen;
+  border-radius: 5px;
+}
+
+.bio {
+  text-align: center;
+  color: brown;
+}
+
+.projects {
+  text-align: center;
+  color: brown;
+}
+
+a {
+  color: blue; 
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: maroon;
+}
+
+.footer {
+  margin: 25px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+}

@@ -1,0 +1,37 @@
+.herocard {
+  background-color: lightseagreen;
+}
+
+div.herocard img {
+  max-width: 15%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+div.cardcontent img{
+  padding-bottom: 10px;
+  width: 300px;
+  height: 100px;
+}
+
+div.cardcontent a {
+  padding-bottom: 10px;
+}
+
+.cardcontent {
+  max-width: 30%;
+  text-align: center;
+  margin: 5px;
+  padding: 25px;
+}
+
+h2 {
+  margin: 10px;
+  text-align: center;
+}
+
+footer.footer a img {
+  margin-left: 100px;
+  width: 55px;
+  height: 45px
+}
