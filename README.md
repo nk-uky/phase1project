@@ -17,3 +17,4 @@ Details:
 Some of the elements in this page is resized to be more responsive for smaller screen sizes.
 - The Company Landing page starts using bootstarp. Also has a small custom css file for just few elements.
 This page is also responsive.
+- All images used in these pages are located in the /images folder
