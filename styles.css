@@ -1,0 +1,193 @@
+
+header {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+}
+main {
+  background-color: lightgray;
+  width: 100%;
+}
+
+ul.nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-basis: content;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 2px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  @media (max-width: 780px){
+    display: block; 
+    font-size: 15px; 
+  }
+}
+
+a:hover {
+  text-decoration-line: underline;
+  background-color: #04AA6D;
+}
+
+#about {
+  display: block;
+  text-align: center;
+  line-height: 25px;
+}
+
+#skills {
+  text-align: center;
+  line-height: 40px;
+}
+
+#projects {
+  text-align: center;
+  line-height: 40px;
+}
+
+#contact {
+  text-align: center;
+  line-height: 40px;
+}
+
+#hobbies {
+  text-align: center;
+  line-height: 40px;
+}
+
+ul.skillslist {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: content;
+}
+
+.skillscontent {
+  font-weight: bold;
+  margin: 1px;
+  background-color: lightseagreen;
+  border: 3px solid black;
+  padding: 5px;
+  @media (max-width: 780px) {
+    display:block;
+    font-weight: lighter;
+    background-color: bisque;
+  }
+}
+
+ul.hobbieslist {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: content;
+}
+
+.hobbiescontent {
+  font-weight: bold;
+  margin: 1px;
+  background-color: lightseagreen;
+  border: 3px solid black;
+  padding: 5px;
+  @media (max-width: 780px) {
+    display:block;
+    font-weight: lighter;
+    background-color: bisque;
+  }
+}
+
+.aboutimg {
+  max-width: 20%;
+  border-radius: 50%;
+  background-color: black;
+  padding: 1px;
+  margin-top: 90px;
+}
+
+.projectscards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: auto;
+}
+
+.cardcontent {
+  border: 2px solid black;
+  border-radius: 2%;
+  margin: 2px;
+  background-color: cornsilk;
+  text-align: center;
+  padding: 0 10px;
+  max-width: 40%;
+}
+
+.projectsimg {
+  max-width: 15%;
+  padding: 1px;
+  margin-top: 10px;
+}
+
+.contactcards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: auto;
+}
+
+.contactdetails {
+  border: 2px solid black;
+  border-radius: 2%;
+  margin: 2px;
+  background-color: lightcyan;
+  text-align: center;
+  padding: 0 10px;
+  max-width: 40%;
+  color:black;
+}
+
+.contactform {
+  border: 2px solid black;
+  border-radius: 2%;
+  margin: 2px;
+  background-color: lightcyan;
+  text-align: left;
+  padding: 0 10px;
+  max-width: 40%;
+  color:black;
+}
+
+card.contactform h3 {
+  text-align: center;
+}
+
+textarea {
+  width: 250px;
+  height: 200px;
+}
+
+/* the contact form resizes for smaller screen */
+@media (max-width:650px) {
+    .contactform {
+        background-color: beige;
+    }
+    textarea {
+      width: 150px;
+      height: 100px;
+    }
+    input {
+      width: 150px;
+    }
+
+  }
